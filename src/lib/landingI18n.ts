@@ -38,18 +38,18 @@ export const T = {
   },
   ar: {
     brand: 'كريبتو مينتور',
-    login: 'تسجيل الدخول',
-    signup: 'سجّل الآن',
-    heroLine1: 'تريد $10k / شهر',
+    login: 'دخول',
+    signup: 'سجّل دابا',
+    heroLine1: 'بغيتي $10k / شهر',
     heroLine2: 'من الكريبتو؟',
-    heroSub: 'جلسات تداول مباشرة، مرشد شخصي واستراتيجيات محقّقة — من الصفر إلى دخل ثابت خلال 30 يوماً.',
-    cta: 'أجب على الاختبار في 30 ثانية',
-    incoming: 'تحويل وارد',
+    heroSub: 'تداول حي، مرشد خاص وستراتيجيات معمولة — من الصفر لدخل ثابت ف 30 يوم.',
+    cta: 'جاوب على الاختبار ف 30 ثانية',
+    incoming: 'تحويل جاي',
     confirmed: 'مؤكّد',
-    exDesc: ['فوري · مستقبليات', 'مشتقات', 'تداول نسخ'] as [string, string, string],
+    exDesc: ['سبوت · فيوتشر', 'مشتقات', 'كوبي ترادينغ'] as [string, string, string],
     reviewsChip: '+1,200 طالب',
-    reviewsTitle: 'نتائج حقيقية للطلاب',
-    reviewsSub: 'ليست وعوداً — أرقام فعلية',
+    reviewsTitle: 'نتائج حقيقية ديال الطلاب',
+    reviewsSub: 'ماشي وعود — أرقام حقيقية',
     resultLabel: 'النتيجة',
     langToggle: 'RU',
   },
@@ -67,12 +67,12 @@ export const REVIEWS_RU: ReviewData[] = [
 ]
 
 export const REVIEWS_AR: ReviewData[] = [
-  { name: 'محمد أ.', period: '3 أشهر في البرنامج', avatarBg: 'bg-emerald-500/20', avatarText: 'text-emerald-400', result: '+8,400$ / شهر', text: 'بدأت من الصفر وأغلقت المئة الأولى في الشهر الأول. الآن أحقق 8–10 آلاف دولار بثبات. الجلسات الحية مذهلة — كل شيء في الوقت الفعلي.', wide: true },
-  { name: 'فاطمة ح.', period: 'شهران في البرنامج', avatarBg: 'bg-blue-500/20', avatarText: 'text-blue-400', result: '+5,700$ / شهر', text: 'جربت عدة دورات قبل هذا وكانت كلها نظرية. هنا نتداول فعلياً من اليوم الأول. في الشهر الثاني حققت 5,700$ صافية.', wide: false },
-  { name: 'أحمد م.', period: '6 أشهر في البرنامج', avatarBg: 'bg-purple-500/20', avatarText: 'text-purple-400', result: '+12,000$ / شهر', text: 'بدأت بـ 500$، الآن أدير محفظة بـ 40,000$. معدل النجاح ارتفع إلى 71%. البرنامج يغير طريقة التفكير — تتداول بمنهجية بلا مشاعر.', wide: false },
-  { name: 'خالد ع.', period: '4 أشهر في البرنامج', avatarBg: 'bg-orange-500/20', avatarText: 'text-orange-400', result: '+9,100$ / شهر', text: 'كنت متشككاً في البداية، لكن النتائج أقنعتني. إشارات واضحة ودعم مستمر 24/7. تركت وظيفتي الأساسية في الشهر الثالث.', wide: true },
-  { name: 'نورة س.', period: '3 أشهر في البرنامج', avatarBg: 'bg-pink-500/20', avatarText: 'text-pink-400', result: '+6,300$ / شهر', text: 'أتداول بدوام جزئي بالتوازي مع عملي. الشهر الماضي ربحت 6,300$ — أكثر من راتبي. الإشارات واضحة مع مستويات محددة.', wide: true },
-  { name: 'سارة ل.', period: 'شهر في البرنامج', avatarBg: 'bg-cyan-500/20', avatarText: 'text-cyan-400', result: '+2,200$ في شهر', text: 'الشهر الأول: 2,200$ بإيداع 3,000$. كنت أتوقع أقل بصراحة. الاستراتيجيات بسيطة لكنها تعمل. المرشد يحلل كل صفقة شخصياً.', wide: false },
+  { name: 'محمد أ.', period: '3 شهور ف البرنامج', avatarBg: 'bg-emerald-500/20', avatarText: 'text-emerald-400', result: '+8,400$ / شهر', text: 'بديت من الصفر وغلقت المية الأولى ف الشهر لول. دابا كنخرج 8–10 آلاف دولار بثبات. الجلسات الحية رائعة — كل حاجة ف الوقت الحقيقي.', wide: true },
+  { name: 'فاطمة ح.', period: 'شهرين ف البرنامج', avatarBg: 'bg-blue-500/20', avatarText: 'text-blue-400', result: '+5,700$ / شهر', text: 'جربت عدة دورات قبل هاد وكانت كلها نظرية. هنا كنتداولو من اليوم الأول. ف الشهر الثاني خرجت بـ 5,700$ صافية.', wide: false },
+  { name: 'أحمد م.', period: '6 شهور ف البرنامج', avatarBg: 'bg-purple-500/20', avatarText: 'text-purple-400', result: '+12,000$ / شهر', text: 'بديت بـ 500$، دابا كندير محفظة بـ 40,000$. نسبة النجاح زادت لـ 71%. البرنامج كيبدل طريقة التفكير — كتتداول بمنهجية بلا عواطف.', wide: false },
+  { name: 'خالد ع.', period: '4 شهور ف البرنامج', avatarBg: 'bg-orange-500/20', avatarText: 'text-orange-400', result: '+9,100$ / شهر', text: 'كنت شاكك ف البداية، ولكن النتائج قنعتني. إشارات واضحة وسوبور 24/7. خليت خدمتي الأصلية ف الشهر الثالث.', wide: true },
+  { name: 'نورة س.', period: '3 شهور ف البرنامج', avatarBg: 'bg-pink-500/20', avatarText: 'text-pink-400', result: '+6,300$ / شهر', text: 'كنتداول نص وقت جنب خدمتي. الشهر لي فات ربحت 6,300$ — أكتر من الراتب. الإشارات واضحة مع مستويات محددة.', wide: true },
+  { name: 'سارة ل.', period: 'شهر ف البرنامج', avatarBg: 'bg-cyan-500/20', avatarText: 'text-cyan-400', result: '+2,200$ ف شهر', text: 'الشهر الأول: 2,200$ بإيداع 3,000$. كنت كنتوقع أقل بصراحة. الستراتيجيات بسيطة ولكن كتخدم. المرشد كيحلل كل صفقة بشخصو.', wide: false },
 ]
 
 export const PAYMENT_ROWS_RU: PaymentRowData[] = [
@@ -82,7 +82,7 @@ export const PAYMENT_ROWS_RU: PaymentRowData[] = [
 ]
 
 export const PAYMENT_ROWS_AR: PaymentRowData[] = [
-  { depth: 2, amount: '42,500', bank: { name: 'ماده', logoSrc: '/pay/Mada_Logo.svg' }, method: 'بطاقة', time: 'منذ 3 دقائق' },
-  { depth: 1, amount: '118,000', bank: { name: 'Apple Pay', logoSrc: '/pay/apple-pay-svgrepo-com.svg' }, method: 'دفع رقمي', time: 'منذ دقيقة' },
-  { depth: 0, amount: '87,000', bank: { name: 'STC Pay', logoSrc: '/pay/Stc_pay.svg' }, method: 'تحويل', time: 'الآن' },
+  { depth: 2, amount: '42,500', bank: { name: 'ماده', logoSrc: '/pay/Mada_Logo.svg' }, method: 'بطاقة', time: 'من 3 دقايق' },
+  { depth: 1, amount: '118,000', bank: { name: 'Apple Pay', logoSrc: '/pay/apple-pay-svgrepo-com.svg' }, method: 'حساب رقمي', time: 'من دقيقة' },
+  { depth: 0, amount: '87,000', bank: { name: 'STC Pay', logoSrc: '/pay/Stc_pay.svg' }, method: 'تحويل', time: 'دابا' },
 ]
