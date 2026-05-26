@@ -24,8 +24,8 @@ const DAYS_AR = [
 ]
 
 const LABELS = {
-  ru: { name: 'Khadija Benani', period: '3 мес. в программе', badge: 'Лучший ученик', week: 'Неделя', winRate: 'Win rate', trades: 'Сделки' },
-  ar: { name: 'Khadija Benani', period: '3 أشهر في البرنامج', badge: 'أفضل طالب', week: 'الأسبوع', winRate: 'نسبة الربح', trades: 'الصفقات' },
+  ru: { name: 'Алексей М.', period: '3 мес. в программе', badge: 'Лучший ученик', week: 'Неделя', winRate: 'Win rate', trades: 'Сделки' },
+  ar: { name: 'أليكسي م.', period: '3 أشهر في البرنامج', badge: 'أفضل طالب', week: 'الأسبوع', winRate: 'نسبة الربح', trades: 'الصفقات' },
 }
 
 export function StudentCard({ lang }: { lang: Lang }) {
