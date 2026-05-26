@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import avatarJames from '@/assets/avatar-james.jpg'
+import avatar from '@/assets/avatar.jpg'
 import { cn } from '@/lib/utils'
 import type { Lang } from '@/lib/landingI18n'
 
@@ -25,7 +25,7 @@ const DAYS_AR = [
 
 const LABELS = {
   ru: { name: 'Алексей М.', period: '3 мес. в программе', badge: 'Лучший ученик', week: 'Неделя', winRate: 'Win rate', trades: 'Сделки' },
-  ar: { name: 'أليكسي م.', period: '3 أشهر في البرنامج', badge: 'أفضل طالب', week: 'الأسبوع', winRate: 'نسبة الربح', trades: 'الصفقات' },
+  ar: { name: 'Khadija Benani', period: '3 أشهر في البرنامج', badge: 'أفضل طالب', week: 'الأسبوع', winRate: 'نسبة الربح', trades: 'الصفقات' },
 }
 
 export function StudentCard({ lang }: { lang: Lang }) {
@@ -37,7 +37,7 @@ export function StudentCard({ lang }: { lang: Lang }) {
     <div className={cn('w-full', 'max-w-[280px]', 'rounded-2xl', 'bg-[oklch(0.16_0_0)]', 'p-4', 'shadow-2xl', 'transition-transform', 'duration-300', 'hover:scale-[1.01]')}>
       <div className={cn('flex', 'items-center', 'justify-between', 'mb-4')}>
         <div className={cn('flex', 'items-center', 'gap-2.5')}>
-          <Image src={avatarJames} alt={lbl.name} width={36} height={36} className={cn('h-9', 'w-9', 'rounded-full', 'object-cover')} />
+          <Image src={avatar} alt={lbl.name} width={36} height={36} className={cn('h-9', 'w-9', 'rounded-full', 'object-cover')} />
           <div>
             <div className={cn('text-sm', 'font-semibold', 'text-foreground')}>{lbl.name}</div>
             <div className={cn('text-[11px]', 'text-muted-foreground')}>{lbl.period}</div>

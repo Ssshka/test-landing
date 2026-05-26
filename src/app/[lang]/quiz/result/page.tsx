@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { ArrowRight, Star } from 'lucide-react'
 import { quizStore, type QuizAnswers } from '@/lib/quizStore'
 import { quizI18n } from '@/lib/quizI18n'
-import avatarJames from '@/assets/avatar-james.jpg'
+import avatar from '@/assets/avatar.jpg'
 import { cn } from '@/lib/utils'
 import type { Lang } from '@/lib/langStore'
 
@@ -40,7 +40,7 @@ export default function ResultPage({
         <div className={cn('w-full', 'bg-[oklch(0.13_0_0)]', 'rounded-2xl', 'p-5', 'space-y-4')}>
           <div className={cn('flex', 'items-center', 'gap-4')}>
             <div className="relative shrink-0">
-              <img src={avatarJames.src} alt="Manager" className={cn('h-16', 'w-16', 'rounded-full', 'object-cover')} />
+              <img src={avatar.src} alt="Manager" className={cn('h-16', 'w-16', 'rounded-full', 'object-cover')} />
               <span className={cn('absolute', '-bottom-0.5', '-right-0.5', 'h-4', 'w-4', 'rounded-full', 'bg-emerald-500', 'ring-2', 'ring-[oklch(0.13_0_0)]')} />
             </div>
             <div className="text-start">
