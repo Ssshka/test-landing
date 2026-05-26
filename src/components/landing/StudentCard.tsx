@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import avatar from '@/assets/avatar.jpg'
 import { cn } from '@/lib/utils'
 import type { Lang } from '@/lib/landingI18n'
 
@@ -37,7 +35,9 @@ export function StudentCard({ lang }: { lang: Lang }) {
     <div className={cn('w-full', 'max-w-[280px]', 'rounded-2xl', 'bg-[oklch(0.16_0_0)]', 'p-4', 'shadow-2xl', 'transition-transform', 'duration-300', 'hover:scale-[1.01]')}>
       <div className={cn('flex', 'items-center', 'justify-between', 'mb-4')}>
         <div className={cn('flex', 'items-center', 'gap-2.5')}>
-          <Image src={avatar} alt={lbl.name} width={36} height={36} className={cn('h-9', 'w-9', 'rounded-full', 'object-cover')} />
+          <div className={cn('flex', 'h-9', 'w-9', 'shrink-0', 'items-center', 'justify-center', 'rounded-full', 'bg-emerald-500/20')}>
+            <span className={cn('text-xs', 'font-medium', 'text-emerald-400')}>{lbl.name.split(' ').map((p: string) => p[0]).join('').slice(0, 2)}</span>
+          </div>
           <div>
             <div className={cn('text-sm', 'font-semibold', 'text-foreground')}>{lbl.name}</div>
             <div className={cn('text-[11px]', 'text-muted-foreground')}>{lbl.period}</div>
