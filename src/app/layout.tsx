@@ -34,8 +34,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
-// Вставьте ваш Pixel ID ниже (заменить YOUR_PIXEL_ID на число из Events Manager)
-const FB_PIXEL_ID = 'YOUR_PIXEL_ID'
+const FB_PIXEL_ID = '1292020652809998'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
